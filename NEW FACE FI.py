@@ -3,7 +3,7 @@ respo = requests.get(f"https://mail.google.com")
 der=respo.headers
 print(der['Date'])
 import time,datetime
-g= datetime.datetime(2024, 1, 16,)
+g= datetime.datetime(2024, 1, 17,)
 x = datetime.datetime.now()
 if (x.strftime("%x"))>(g.strftime("%x")):
  exit('@KO00NAN توقفت الاداة راسل كونان للاشتراك')
