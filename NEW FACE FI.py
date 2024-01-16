@@ -12,6 +12,31 @@ import requests,bs4,json,os,sys,random,datetime,time,re
 import webbrowser
 webbrowser.open('https://www.facebook.com/profile.php?id=100052089186869')
 import os
+
+def haniID():
+  uuid = str(os.geteuid()) + str(os.getlogin())
+  id = "-".join(uuid)
+  print("\x1b[37;1mYOUR ID : "+id)
+  try:
+    httpCaht = requests.get("https://pastebin.com/raw/5bD2wL8Q").text
+    if id in httpCaht:
+      print('')
+      print("\033[1;92m ✔️✔️...!")
+      msg = str(os.geteuid())
+      time.sleep(0.3)
+      pass
+    else:
+      print('')
+      print("\033[1;33mللاشتراك بالاداه راسل كونان @KO00NAN")
+      
+      time.sleep(1)
+      sys.exit()
+  except:
+    
+    
+    haniID()
+haniID()
+print('كفوو كونان وافق انك تشغل اداتو ')
 firasid=[]
 import urllib3,rich,base64
 from rich.table import Table as me
