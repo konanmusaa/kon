@@ -295,7 +295,7 @@ def banner():
                                                      """)
                                                     
 #--------------------[ BAGIAN-MASUK ]--------------#
-def RR():
+#def RR():
 	try:
 		token = open('.token.txt','r').read()
 		cok = open('.cok.txt','r').read()
@@ -316,7 +316,7 @@ def RR():
 		login_lagi334()
 
 
-def login_lagi334():
+#def login_lagi334():
 	try:
 		
 		asu = random.choice([m,k,h,b,u])
