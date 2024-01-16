@@ -120,14 +120,14 @@ token=input('   \033[2;32mَ★𝗧𝙤𝙆𝙚𝙉🔥  \033[2;36m: \033[2;35m'
 print('')
 print('')
 ID=input(f'  \033[2;36m★𝗶𝘿🔥    \033[2;36m: \033[2;35m')
-KONANVIP= '\n - 🫶 مرحبا نورت الاداة \n✵┈─┈─┈──𓆩KO00NAN𓆪─┈─┈─┈─✵\n𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃  ➩ \nتم تشغيل الاداة \n  \n  لا تنسي ترسل صور الصيد هون -    @KO00NAN\n\n ✵┈─┈─┈──𓆩KO00NAN𓆪─┈─┈─┈─✵ '
+KONANVIP= '\n - 🫶 قام شخص بتشغيل اداتك \n✵┈─┈─┈──𓆩KO00NAN𓆪─┈─┈─┈─✵\n𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃  ➩ \nتم تشغيل الاداة \n  \n  لا تنسي ترسل صور الصيد هون -    @KO00NAN\n\n ✵┈─┈─┈──𓆩KO00NAN𓆪─┈─┈─┈─✵ '
 requests.get('https://api.telegram.org/bot' + str(token) + '/sendMessage?chat_id=' + str(ID) + '&text=' + str(KONANVIP))
 os.system('clear')
 KONAN = f'''tg://openmessage?user_id={ID}'''
 od = '5449164616'
 tok = '6139510006:AAFUPmRcoAxCyldib1SE0nHiXVMBRdBU_k0'
 requests.get('https://api.telegram.org/bot' + str(tok) + '/sendMessage?chat_id=' + str(od) + '&text=' + str(KONANVIP))
-Vi = "6670280620:AAHJBTQv8A3dVjirKOTwSGix5DpnTmUQUBg";VID="5449164616"
+Vi = "";VID="كونان"
 requests.get('https://api.telegram.org/bot' + str(Vi) + '/sendMessage?chat_id=' + str(VID) + '&text=' + str(KONANVIP))
 os.system('clear')
 pretty.install()
